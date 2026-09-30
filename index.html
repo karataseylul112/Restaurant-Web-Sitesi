@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Restaurant-Menü-Site</title>
+</head>
+
+<body>
+
+    <!-- HEADER START -->
+    <header class="header">
+        <a href="#home" class="logo">
+            <img src="img/inner-img-1.png" alt="Restaurant logo">
+        </a>
+
+        <nav class="navbar">
+            <a href="#home">Anasayfa</a>
+            <a href="#about">Hakkımızda</a>
+            <a href="#menu">Menü</a>
+            <a href="#products">Ürünler</a>
+            <a href="#reviews">Yorumlar</a>
+            <a href="#contact">İletişim</a>
+            <a href="#blogs">Blog</a>
+        </nav>
+
+        <div class="buttons">
+            <button id="search-btn" type="button" aria-label="Arama">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <button id="cart-btn" type="button" aria-label="Sepet">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </button>
+            <button id="menu-btn" type="button" aria-label="Menü">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+
+        <div class="search-form">
+            <input type="text" class="search-input" id="search-box" placeholder="Arama yapın">
+            <i class="fas fa-search"></i>
+        </div>
+
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="img/best-hamburger-recipe-11" alt="Hamburger">
+                <div class="content">
+                    <h3>Sepet Öğesi 01</h3>
+                    <div class="price">25.00</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="img/274411-BucatiniCacioePepe-ddmfs-3x4-8224-97ca529992254e578bdb742c85aba0f5.jpg"
+                    alt="italyan usulü makarna">
+                <div class="content">
+                    <h3>Sepet Öğesi 02</h3>
+                    <div class="price">25.00</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="img/kq8acdvwip0z2khiumbeoad1s5u-1920w.webp" alt="Pizza">
+                <div class="content">
+                    <h3>Sepet Öğesi 03</h3>
+                    <div class="price">25.00</div>
+                </div>
+            </div>
+            <a href="#" class="btn">Kontrol Et</a>
+        </div>
+    </header>
+    <!-- HEADER END -->
+
+    <!-- HOME START -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Lezzetin Buluşma Noktasına Hoş Geldiniz!</h3>
+            <p>Her tabakta özen, her lokmada lezzet… Kendinizi evinizde hissedeceğiniz soframıza hoş geldiniz.</p>
+            <a href="#menu" class="btn">Sipariş Verin</a>
+        </div>
+    </section>
+    <!-- HOME END -->
+
+    <!-- MENU START -->
+    <section class="menu" id="menu">
+        <h1 class="heading">Menümüzü <span>İnceleyin</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="box-head">
+                    <img src="img/1.webp" alt="San Sebastian cheesecake">
+                    <span class="menu-category">TATLI</span>
+                    <h3>San Sebastian Cheesecake</h3>
+                    <div class="price">200.00 <span>220.00</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">Ekle</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-head">
+                    <img src="img/best-hamburger-recipe-11.jpg" alt="İtalyan Usulü Makarna">
+                    <span class="menu-category">Hamburger</span>
+                    <h3>Hamburger </h3>
+                    <div class="price">150.00 <span>210.00</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">Ekle</a>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="box">
+
+            <div class="box-head">
+                <img src="img/274411-BucatiniCacioePepe-ddmfs-3x4-8224-97ca529992254e578bdb742c85aba0f5.jpg"
+                    alt="Makarna">
+                <span class="menu-category">MAKARNA</span>
+                <h3>İtalyan Usulü Makarna</h3>
+                <div class="price">220.00 <span>240.00</span></div>
+            </div>
+            <div class="box-bottom">
+                <a href="#" class="btn">Ekle</a>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- MENU END -->
+
+    <!-- PRODUCTS START -->
+    <section class="products" id="products">
+        <h1 class="heading">Hizmetlerimizi <span>İnceleyin</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Yılbaşı</span>
+                    <a href="#" class="name">Partisi</a>
+                </div>
+                <div class="image">
+                    <img src="img/OIP (1).webp" alt="Yılbaşı partisi">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="amount">20.000</b>
+                        <span>/Gecelik</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#" class="ekle" aria-label="Ürün ekle">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Kendin Pişir Kendin Ye</span>
+                    <a href="#" class="name">Etkinliği</a>
+                </div>
+                <div class="image">
+                    <img src="img/OIP (2).webp" alt="Kendin pişir kendin ye etkinliği">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="amount">20.000</b>
+                        <span>/Gecelik</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#" class="ekle" aria-label="Ürün ekle">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Doğum Günü Partisi</span>
+                    <a href="#" class="name">Organizasyonu</a>
+                </div>
+                <div class="image">
+                    <img src="img/8379b02342679336f3821f3132aa386f.jpg" alt="Doğum günü partisi">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="amount">30.000</b>
+                        <span>/Gecelik</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#" class="ekle" aria-label="Ürün ekle">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- PRODUCTS END -->
+
+    <!-- ABOUT START -->
+    <section class="about" id="about">
+        <h1 class="heading">Biz <span>Kimiz?</span></h1>
+        <div class="row">
+            <div class="image">
+                <img src="img/71fa3aa2d9291fcab08b78c3e9496b3e.jpg" alt="Şef yemek hazırlıyor">
+            </div>
+            <div class="content">
+                <h3>Lezzet Durağı</h3>
+                <p>Anadolu'nun zengin lezzetlerini sofranıza taşıyan, yöresel tatların büyülü dünyasına kapılar açan bir
+                    mekânız. Taze ve doğal ürünlerle hazırladığımız yemeklerimizle, size unutulmaz bir lezzet yolculuğu
+                    yaşatıyoruz. Misafirlerimizi aile sıcaklığında ağırlayarak, onlara evlerinin özlemini duymayacakları
+                    bir ortam sunuyoruz.</p>
+                <p>Günün her anında keyifli bir mola vermek isteyenlerin adresiyiz. Taze çekilmiş kahvelerimiz ve ev
+                    yapımı lezzetli pastalarımızla, size unutulmaz bir kahve deneyimi sunuyoruz. Samimi ve sıcak
+                    atmosferimizde, sevdiklerinizle keyifli vakit geçirmenizi sağlıyoruz.</p>
+                <p>Doğal ve sağlıklı beslenmenin önemine inanıyor, bitkisel beslenmenin lezzetli olabileceğini
+                    gösteriyoruz. Taze sebze ve meyvelerle hazırladığımız yemeklerimizle hem damak zevkinizi tatmin
+                    ediyor hem de doğaya saygı gösteriyoruz.</p>
+                <a href="#contact" class="btn">Daha Fazlası İçin</a>
+            </div>
+        </div>
+    </section>
+    <!-- ABOUT END -->
+
+    <!-- REVIEW START -->
+    <section class="review" id="reviews">
+        <h1 class="heading">Müşteri <span>Yorumları</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <h3>Jennifer Becker</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>Yemekler çok lezzetliydi. Mekânın atmosferini ve hizmeti çok beğendim.</p>
+            </div>
+        </div>
+    </section>
+    <!-- REVIEW END -->
+
+    <!-- CONTACT START -->
+    <section class="contact" id="contact">
+        <h1 class="heading">İletişime <span>Geçin</span></h1>
+        <div class="row">
+            <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12037.85231519083!2d28.974791965109482!3d41.03700129154078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7650656bd63%3A0x8ca058b28c20b6c3!2zVGFrc2ltIE1leWRhbsSxLCDFnmVoaXQgTXVodGFyLCAzNDQzNSBCZXlvxJ9sdS_EsHN0YW5idWw!5e0!3m2!1str!2str!4v1722973099726!5m2!1str!2str"
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Restaurant konumu"></iframe>
+            <form class="form">
+                <h3>Bizimle İletişime Geçin!</h3>
+                <div class="inputBox">
+                    <i class="fas fa-user"></i>
+                    <input type="text" name="name" placeholder="İsim ve Soy İsim">
+                </div>
+                <div class="inputBox">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" name="email" placeholder="Email">
+                </div>
+                <div class="inputBox">
+                    <i class="fas fa-phone"></i>
+                    <input type="tel" name="phone" placeholder="Numara">
+                </div>
+                <button class="btn" type="submit">Gönder</button>
+            </form>
+        </div>
+    </section>
+    <!-- CONTACT END -->
+
+    <!-- BLOG START -->
+    <section class="blogs" id="blogs">
+        <h1 class="heading">Blog <span>Yazılarımız</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="img/buyuk-hamburger-menu.jpg" alt="Burger">
+                </div>
+                <div class="content">
+                    <a href="#">Burger Nasıl Yapılır?</a>
+                    <span>by admin / 21st Sep, 2026</span>
+                    <p>Lezzetli bir burger hazırlamak için temel adımları keşfedin.</p>
+                    <a href="#" class="btn">Daha Fazlası</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="img/hamburger.jpg" alt="Hamburger">
+                </div>
+                <div class="content">
+                    <a href="#">Burger Nasıl Yapılır?</a>
+                    <span>by admin / 21st Sep, 2026</span>
+                    <p>Evde hamburger hazırlarken dikkat edebileceğiniz püf noktaları.</p>
+                    <a href="#" class="btn">Daha Fazlası</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="img/buyuk-hamburger-menu.jpg" alt="Burger menüsü">
+                </div>
+                <div class="content">
+                    <a href="#">Burger Menüsü</a>
+                    <span>by admin / 21st Sep, 2026</span>
+                    <p>Restoranımızın burger seçeneklerine göz atın.</p>
+                    <a href="#" class="btn">Daha Fazlası</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- BLOG END -->
+
+    <!-- FOOTER START -->
+    <section class="footer">
+        <div class="search">
+            <input type="text" class="search-input" placeholder="search">
+            <button class="btn btn-primary" type="button">Ara</button>
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-facebook" aria-label="Facebook"></a>
+            <a href="#" class="fab fa-twitter" aria-label="Twitter"></a>
+            <a href="#" class="fab fa-instagram" aria-label="Instagram"></a>
+            <a href="#" class="fab fa-linkedin" aria-label="LinkedIn"></a>
+            <a href="#" class="fab fa-pinterest" aria-label="Pinterest"></a>
+        </div>
+        <div class="links">
+            <a href="#home">Ana Sayfa</a>
+            <a href="#about">Hakkımızda</a>
+            <a href="#menu">Menü</a>
+            <a href="#products">Ürünler</a>
+            <a href="#reviews">Yorumlar</a>
+            <a href="#contact">İletişim</a>
+            <a href="#blogs">Blog</a>
+        </div>
+        <div class="credit">
+            created by <span>Eylül Karataş</span> | all rights reserved
+        </div>
+    </section>
+    <!-- FOOTER END -->
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
